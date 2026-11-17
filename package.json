@@ -1,13 +1,14 @@
 {
   "name": "api-cafeteria",
   "version": "1.0.0",
-  "description": "",
+  "description": "API REST de uma cafeteria com CRUD de produtos, feita em Node.js e Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Stefani Fatima",
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
